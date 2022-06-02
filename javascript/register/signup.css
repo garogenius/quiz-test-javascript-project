@@ -1,0 +1,156 @@
+body{
+    background-color: aliceblue;
+    padding: 0%;
+    margin: 0%;
+}
+.wrapper{
+    /* display: inline-flex;
+    justify-content:space-between; */
+}
+    
+
+.login{
+       display: none;
+}
+.wrapper .sign{
+     /* display: none; */
+    padding-top:10px;
+    margin:auto;
+    margin-top: 50px;
+    width: 340px;
+    height: 415px;
+    background-color: rgb(228, 226, 226);
+    align-items: center;
+    border-radius: 10px;
+    }
+    .sign input{
+    margin: 5px;
+    margin-left: 15px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 12px;
+    /* text-align: center; */
+    font-size: 17px;
+    font-weight: bold;
+    
+    }
+    .sign p{
+    float: right;
+    padding-top:10px ;
+    }
+
+.sign-text{
+    float: right;
+    margin-top:100px;
+    padding-right: 130px;
+    font-size: 25px;
+
+}
+.login-btn{
+    /* background-color: aquamarine; */
+    cursor: pointer;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: rgb(11, 246, 97);
+    border-radius: 12px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px;
+    }
+.login-text{
+    float: right;
+    margin-top:100px;
+    padding-right: 130px;
+    font-size: 25px;
+
+}
+.login-btn:hover{
+    background-color: rgb(174, 56, 56);
+}
+span{
+    color: green;
+}
+.demo{
+    text-align:center;
+    font-size: 10px;
+    height: toggle;
+    opacity: toggle;
+    color: red;
+
+}
+.demo.animate{
+    height: toggle;
+    opacity: toggle;
+    animate:slow;
+
+}
+
+.login{
+    /* display: none; */
+    padding-top:10px;
+    margin:auto;
+    margin-top: 50px;
+    width: 340px;
+    height: 370px;
+    background-color: rgb(228, 226, 226);
+    align-items: center;
+    border-radius: 10px;
+    }
+    .login input{
+    margin: 5px;
+    margin-left: 15px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 12px;
+    /* text-align: center; */
+    font-size: 17px;
+    font-weight: bold;
+    
+    }
+    .login p{
+    float: right;
+    padding-top:10px ;
+    }
+    .sign-btn{
+    /* background-color: aquamarine; */
+    cursor: pointer;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: rgb(11, 246, 97);
+    border-radius: 12px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px;
+    }
+    .sign-btn:hover{
+        background-color: rgb(174, 56, 56);
+    }
+    .h1{
+    text-align:center ;
+    }
+    .p1{
+        margin: 10px;
+
+    }
+    .h7{
+        margin: 10px;
+        font-size: 10px;
+        
+    }
+    .h7 a{
+        text-decoration: none;
+        color: black;
+    }
+    
